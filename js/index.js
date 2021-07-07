@@ -2,7 +2,7 @@
 // content section text color change
 const firstheaders = document.querySelector(".content-section")
 firstheaders.addEventListener('mouseover',(event)=>{
-    event.target.style.color= 'pink'
+    event.target.style.color= 'purple'
 })
 // logo on mouseover event
 const logo = document.querySelector('.logo-heading');
@@ -34,7 +34,7 @@ titleSlide.addEventListener("click",(event)=>{
 const div = document.querySelector(".text-content ")
 
 div.addEventListener("click", (event)=>{
-    event.target.style.border = "2px solid pink"
+    event.target.style.border = "2px solid yellow"
 })
 // onclick picture drag
 const dragpic = document.querySelector(".img-content img")
@@ -56,3 +56,16 @@ window.addEventListener('resize', function(e){
     alert('Your window is resized');
 });
 
+
+const fullweb = document.querySelector('body');
+
+fullweb.addEventListener('keydown', 
+(event) => {
+  event.target.style.backgroundColor = "purple";
+})
+
+
+fullweb.addEventListener('keyup', 
+(event) => {
+  event.target.style.backgroundColor = "white";
+});
