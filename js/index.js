@@ -47,6 +47,7 @@ largepic.addEventListener("load", (event)=>{
     event.target.style.width = "80%"
     
 })
+// add
 // window onload event
 window.addEventListener("load", function(event) {
     alert('Your Window Is Loaded');
